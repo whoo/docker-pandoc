@@ -1,4 +1,4 @@
-FROM debian
+FROM debian:11.2
 ENV DEBIAN_FRONTEND=noninteractive
 RUN apt -y update && apt -y upgrade && apt -y install wget
 RUN 	cd /tmp/ ; \
